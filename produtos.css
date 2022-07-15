@@ -1,4 +1,4 @@
-body{
+*{
     margin: 0px;
     padding: 0px;
 }
@@ -6,10 +6,23 @@ body{
 
 header{
     background-color: #bbbbbb;
+    padding: 20px 0px;
+}
+
+.caixa{
+    width: 1100px;
+    position: relative;
+    margin: 0px auto
 }
 
 .tm{
     margin: 0px;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
 }
 
 nav li{
@@ -20,7 +33,7 @@ nav li{
 
 nav li a{
     color: #000000;
-    font-size: 22px;
+    font-size: 25px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     text-transform: uppercase;
@@ -28,7 +41,43 @@ nav li a{
 }
 
 .tamanho-imagem-icones{
-    width: 22px;
+    width: 25px;
     vertical-align: text-top;
-    margin-left: 3px;
+    margin-left: 6px;
+}
+
+.produtos{
+    width: 1000px;
+    margin: 0px auto;
+    padding: 50px;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+
+.produtos li h2{
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.produtos .produto-descricao{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.produtos .produto-preco{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
 }
