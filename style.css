@@ -42,7 +42,7 @@ p em strong{
 }
 
 
-ul{
+.itens{
     display: inline-block;
     vertical-align: top;
     width: 20%;
