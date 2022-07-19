@@ -7,7 +7,7 @@ main{
     margin: 20px 0px;
 }
 
-.formulario label{
+.formulario label, .formulario p{
     display: block;
     font-size: 20px;
     font-family:Arial, Helvetica, sans-serif;
@@ -15,10 +15,65 @@ main{
     margin-bottom: 10px;
 }
 
-.formulario input{
+.input-padrao, .formulario textarea{
     display: block;
     margin: 10px 0px;
     padding: 14px;
     width: 50%;
     font-size: 15px;
+}
+
+.formulario textarea{
+    width: 50%;
+}
+
+.radio{
+    margin: 10px 3px;
+}
+
+.select{
+    margin-top: 5px 0px;
+}
+
+.checkbox{
+    margin: 10px 3px;
+}
+
+.botao{
+    width: 30%;
+    padding: 15px 0px;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.botao:hover{
+    background-color: darkorange;
+    transform: scale(1.2);
+}
+
+table{
+    margin: 15px 0px;
+}
+
+table thead {
+    background-color: darkgray;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+table tbody{
+    font-size: 18px;
+}
+
+table td, table th{
+    padding: 10px 10px;
+    border: solid 1px black;
 }

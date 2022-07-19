@@ -25,16 +25,66 @@
         <main>
             <form class="formulario">
                 <label for="nomeSobrenome">Nome e Sobrenome:</label>
-                <input type="text" id="nomeSobrenome" placeholder="Guilherme Rodrigues" required>
+                <input class="input-padrao" type="text" id="nomeSobrenome" placeholder="Guilherme Rodrigues" required>
 
                 <label for="email">E-mail:</label>
-                <input type="email" id="email" placeholder="guilherme@gmail.com" required>
+                <input class="input-padrao" type="email" id="email" placeholder="guilherme@gmail.com" required>
 
                 <label for="telefone">Telefone:</label>
-                <input type="tel" id="telefone" placeholder="(11) 922349823" required>
+                <input class="input-padrao" type="tel" id="telefone" placeholder="(11) 922349823" required>
 
-                <input type="submit" value="Enviar formulário">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" cols="30" rows="10"></textarea>
+
+                
+                <div>
+                    <p>como prefere que entremos em contato?</p>
+                    <label for="radio-email"><input class="radio" type="radio" name="contato" id="radio-email"> E-mail </label>
+                    
+                    
+                    <label for="radio-telefone"><input class="radio" type="radio" name="contato" id="radio-telefone">Telefone</label>
+                   
+                    
+                    <label for="radio-whatsapp"> <input class="radio" type="radio" name="contato" id="radio-whatsapp" checked> WhatsApp</label>
+                </div>
+
+                <div>
+                    <p>Qual horário você gostaria de ser atendido ?</p>
+                    <select class="select">
+                        <option value="manha">Manhã</option>
+                        <option value="tarde">Tarde</option>
+                        <option value="noite">Noite</option>
+                    </select>
+                </div>
+
+                <label for="notificacoes"><input class="checkbox" type="checkbox" id="notificacoes">Quer saber de nossas novidades ?</label>
+                <input class="botao" type="submit" value="Enviar formulário">
             </form> 
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <th>Segunda</th>
+                        <th>08 às 20h</th>
+                    </tr>
+                    <tr>
+                        <th>Quarta</th>
+                        <th>08 às 20h</th>
+                    </tr>
+                    <tr>
+                        <th>Sexta</th>
+                        <th>08 às 20h</th>
+                    </tr>
+                </tbody>
+    
+            </table>
         </main>
 
         <footer>
