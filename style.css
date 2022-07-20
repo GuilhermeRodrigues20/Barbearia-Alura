@@ -65,6 +65,12 @@ main{
 
 .imagem-beneficios{
     width: 60%;
+    transition: 1s;
+    box-shadow: 10px 10px 30px black;
+}
+
+.imagem-beneficios:hover{
+    opacity: 0.3;
 }
 
 .itens{
